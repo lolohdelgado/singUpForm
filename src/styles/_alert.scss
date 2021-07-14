@@ -1,0 +1,54 @@
+.alert {
+	width: 100%;
+	height: max-content;
+	display:none;
+	padding:16px;
+    box-sizing: border-box;
+    margin-top: 15px;
+	
+	&#valid {
+		border: 1px solid #067973;
+		background-color: #f5fffe;
+		color: #067973;
+		
+		& svg{
+			fill: #067973;
+		}
+	}
+
+	&#invalid {
+		border: 1px solid #b71540;
+		background-color: #fdeff3;
+		color: #b71540;
+
+		& svg{
+			fill: #b71540;
+		}
+	}
+
+	svg{
+		width:25px;
+		margin-right: 10px;
+	}
+
+	.message{
+		display:flex;
+		flex-direction: column;
+			& h1 {
+			margin-bottom: 10px;
+		}
+	}
+
+	h1{
+		font-size: 18px;
+	}
+
+	p {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	&.show{
+		display: flex;
+	}
+}
