@@ -1,4 +1,4 @@
-*{
+* {
     margin:0;
 }
 
@@ -16,9 +16,11 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-h1{
+
+h1 {
     margin-bottom:20px;
 }
+
 label {
     font-weight: bold;
     margin-top: 10px;
@@ -27,16 +29,15 @@ label {
 form {
 	display:block;
 
-	&.close{
+	&.close {
 		display: none;
 	}
 
-	div{
+	div {
 		display:flex;
     font-weight: bold;
     margin-top:10px;
 	}
-    
 }
 
 button {

@@ -11,7 +11,7 @@
 		background-color: #f5fffe;
 		color: #067973;
 		
-		& svg{
+		svg {
 			fill: #067973;
 		}
 	}
@@ -21,25 +21,26 @@
 		background-color: #fdeff3;
 		color: #b71540;
 
-		& svg{
+		svg{
 			fill: #b71540;
 		}
 	}
 
-	svg{
+	svg {
 		width:25px;
 		margin-right: 10px;
 	}
 
-	.message{
+	.message {
 		display:flex;
 		flex-direction: column;
-			& h1 {
+		
+		h1 {
 			margin-bottom: 10px;
 		}
 	}
 
-	h1{
+	h1 {
 		font-size: 18px;
 	}
 
@@ -48,7 +49,7 @@
 		font-weight: 500;
 	}
 
-	&.show{
+	&.show {
 		display: flex;
 	}
 }
